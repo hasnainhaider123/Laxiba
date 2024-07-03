@@ -1,0 +1,92 @@
+<resources>
+
+    <!-- Language picker -->
+    <string name="lang_en">English</string>
+    <string name="lang_de">Deutsch</string>
+    <string name="lang_es">Español</string>
+    <string name="lang_fr">Français</string>
+    <string name="lang_it">Italiano</string>
+    <!-- Language picker -->
+
+    <string name="diet_plan">Diet plan</string>
+
+
+    <string name="val_yes">Yes</string>
+    <string name="val_no">No</string>
+    <string name="submit_caption">Submit</string>
+    <string name="selection_legend">0 = 
+    high sensibility
+    \n2 = 
+    low sensibility
+    </string>
+
+    <!-- Information screen -->
+    <string name="info_title">Information</string>
+    <string name="info_amounts_title">Stated amounts</string>
+    <string name="info_amounts">The amounts refer to one meal, and allow for three meals with about five hours between them per day. If you intend to consume several foods that are limited with respect to your trigger, please use the combination function.</string>
+    <string name="info_capsules_title">Lactase capsules</string>
+    <string name="info_capsules">If you checked lactose intolerance, you sometimes see an amount with a +-sign in front of it like <i>"+1 Portion = 110g"</i>. This refers to the additional amount you can consume after taking a 12,000 FCC lactase capsule. If there is a limit to the amount of effective capsules due to other triggers, you find it after \'up to\'.</string>
+
+    <!-- Information screen -->
+
+    <string name="subscription_yearly_text">Save 20% with a yearly subscription</string>
+    <string name="yearly_price_caption">per year</string>
+    <string name="monthly_price_caption">per month</string>
+    <string name="buy_now">Buy now</string>
+    <string name="demo_banner_text">Get the full edition now!</string>
+
+    <string name="ibs_caption">IBS</string>
+    <string name="fructose_caption">Fructose intolerance</string>
+    <string name="lactose_caption">Lactose intolerance</string>
+    <string name="sorbitol_caption">Sorbitol intolerance</string>
+    <string name="galactans_caption">Fruc-/Galactans sensitivity</string>
+
+    <string name="yearly_price">$44</string>
+    <string name="monthly_price">$4.99</string>
+    <string name="eula_contents">
+    <![CDATA[<p>By clicking \"Accept\" below, you agree to our <u>EULA</u>. Your agreement is a prerequisit for using the Laxiba app.</p>]]>
+    </string>
+    <string name="eula_accept_btn">Accept</string>
+    <string name="enter_food_name">Enter the food name here</string>
+
+    <string name="app_name">Laxiba</string>
+
+    <string name="val_0">0</string>
+    <string name="val_1">1</string>
+    <string name="val_2">2</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="selection">Other family members</string>
+    <string name="search">Food search</string>
+    <string name="subscription">Subscription</string>
+    <string name="eula">License</string>
+    <string name="menu_item_close">Close</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="subscription_title">Subscription</string>
+    <string name="subscription_monthly_text">Unlock all functionalities</string>
+
+    <string name="no_connection_msg">No network connectivity</string>
+    <string name="network_error_msg">Server error. Please try again</string>
+
+    <string name="upgrade">Upgrade</string>
+    <string name="downgrade">Downgrade</string>
+    <string name="btn_continue">Continue</string>
+    <string name="network_retry_btn_text">Retry</string>
+    <string name="demo_selection_name">Demo selection</string>
+    <string name="activate_btn_text">Activate</string>
+    <string name="active">active</string>
+    <string name="new_selection">Add a selection</string>
+    <string name="selection_name_hint">Profile name</string>
+    <string name="selections_title">Saved combinations</string>
+    <string name="settings_title_pattern">Settings (%1$s)</string>
+    <string name="enter_selection_name_msg">Enter selection name</string>
+
+    <string name="food">Food</string>
+    <string name="categories">Categories</string>
+    <string name="subcategories">Subcategories</string>
+    <string name="full_version">Full version</string>
+    <string name="demo_version">Demo version</string>
+</resources>

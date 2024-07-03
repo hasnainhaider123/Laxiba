@@ -1,0 +1,93 @@
+﻿<resources>
+
+    <!-- Language picker -->
+    <string name="lang_en">English</string>
+    <string name="lang_de">Deutsch</string>
+    <string name="lang_es">Español</string>
+    <string name="lang_fr">Français</string>
+    <string name="lang_it">Italiano</string>
+    <!-- Language picker -->
+
+    <string name="diet_plan">Régime alimentaire</string>
+
+
+    <string name="val_yes">Oui</string>
+    <string name="val_no">Non</string>
+    <string name="submit_caption">Envoyer</string>
+    <string name="selection_legend">0 = 
+    très sensible
+    \n2 = 
+    faible sensibilité
+    </string>
+
+    <!-- Information screen -->
+    <string name="info_title">Information</string>
+    <string name="info_amounts_title">Quantités indiquées</string>
+    <string name="info_amounts">Quantités indiquées : les quantités se réfèrent à un repas, et permettent de préparer trois repas quotidiens séparés d\’environ cinq heures. Si vous avez l\'intention de consommer plusieurs aliments qui sont limités par rapport à votre déclencheur, veuillez utiliser la fonction de combinaison.</string>
+    <string name="info_capsules_title">Capsules lactase</string>
+    <string name="info_capsules">Si vous avez sélectionné une intolérance au lactose, vous trouverez des désignations avec un signe +, par exemple <i>"+1 pièce = 72g"</i>. Ces indiquent la quantité supplémentaire par capsule de lactase prise avec 12 000 FCC. S\'il y a une limite à la quantité efficace de capsules en raison d\'autres déclencheurs, vous la trouverez après l\’indication "jusqu\'à".</string>
+
+    <!-- Information screen -->
+
+    <string name="subscription_yearly_text">Économisez 20 % en choisissant un abonnement annuel</string>
+    <string name="yearly_price_caption">par an</string>
+    <string name="monthly_price_caption">par mois</string>
+    <string name="buy_now">Achetez</string>
+    <string name="demo_banner_text">Obtenez la version complète !</string>
+
+    <string name="ibs_caption">S. de l\'intestin irritable</string>
+    <string name="fructose_caption">Intolérance au fructose</string>
+    <string name="lactose_caption">Intolérance au lactose</string>
+    <string name="sorbitol_caption">Intolérance au sorbitol</string>
+    <string name="galactans_caption">Intolérance fruct. et galactanes</string>
+
+    <string name="yearly_price">42 €</string>
+    <string name="monthly_price">4,70 €</string>
+    <string name="eula_contents">
+    <![CDATA[<p>En cliquant sur \"Accepter\", vous acceptez nos <u> CLUF </u> Votre accord est obligatoire pour l\'utilisation de l\'app. Laxiba.</p>]]>
+    </string>
+    <string name="eula_accept_btn">Accepter</string>
+    <string name="enter_food_name">Cherchez par nom ici</string>
+
+    <string name="app_name">Laxiba</string>
+
+    <string name="val_0">0</string>
+    <string name="val_1">1</string>
+    <string name="val_2">2</string>
+
+
+    <string name="navigation_drawer_open">Ouvrir l’onglet de navigation</string>
+    <string name="navigation_drawer_close">Fermez l’onglet de navigation</string>
+
+    <string name="selection">D\'autres membres de la famille</string>
+    <string name="search">Recherche d’aliment</string>
+    <string name="subscription">Abonnement</string>
+    <string name="eula">Licence</string>
+    <string name="menu_item_close">Fermer</string>
+
+    <string name="settings_title">Paramètres</string>
+    <string name="subscription_title">Abonnement</string>
+    <string name="subscription_monthly_text">Débloquer toutes les fonctionnalités</string>
+
+    <string name="no_connection_msg">Il n\'y a pas une connexion</string>
+    <string name="network_error_msg">Erreur du serveur. Veuillez réessayer.</string>
+
+    <string name="upgrade">Surclassement</string>
+    <string name="downgrade">Déclassement</string>
+    <string name="btn_continue">Continuer</string>
+    <string name="network_retry_btn_text">Recommencez</string>
+    <string name="demo_selection_name">Démo de la sélection</string>
+    <string name="new_selection">Ajoutez une sélection</string>
+    <string name="selection_name_hint">nom de profil</string>
+    <string name="selections_title">Combinaisons mémorisées</string>
+    <string name="settings_title_pattern">Paramètres (%1$s)</string>
+    <string name="activate_btn_text">Activer</string>
+    <string name="active">actif</string>
+    <string name="enter_selection_name_msg">Entrez le nom de la sélection</string>
+
+    <string name="food">Nourriture</string>
+    <string name="categories">Catégories</string>
+    <string name="subcategories">Sous-catégories</string>
+    <string name="full_version">Version complète</string>
+    <string name="demo_version">Version de démonstration</string>
+</resources>

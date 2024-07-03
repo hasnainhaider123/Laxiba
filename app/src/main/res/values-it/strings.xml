@@ -1,0 +1,94 @@
+﻿<resources>
+
+    <!-- Language picker -->
+    <string name="lang_en">English</string>
+    <string name="lang_de">Deutsch</string>
+    <string name="lang_es">Español</string>
+    <string name="lang_fr">Français</string>
+    <string name="lang_it">Italiano</string>
+    <!-- Language picker -->
+
+    <string name="diet_plan">Piano di dieta</string>
+
+
+    <string name="val_yes">Si</string>
+    <string name="val_no">No</string>
+    <string name="submit_caption">Più</string>
+    <string name="selection_legend">0 = 
+    alta sensibilità
+    \n2 = 
+    bassa sensibilità
+    </string>
+
+    <!-- Information screen -->
+    <string name="info_title">Informazioni</string>
+    <string name="info_amounts_title">Quantità dichiarate:</string>
+    <string name="info_amounts">Quantità dichiarate: Le quantità si riferiscono a un pasto, e permettono tre pasti con circa cinque ore tra loro per giorno. Se avete intenzione di consumare diversi alimenti che sono limitati il relazione al vostro trigger, si prega di utilizzare la funzione di combinazione.</string>
+    <string name="info_capsules_title">Capsule lattasi</string>
+    <string name="info_capsules">Se hai selezionato un\'intolleranza al lattosio, troverai designazioni con un segno +, ad esempio <i>"+1 pezzo = 72 g"</i>. Questi indicano la quantità aggiuntiva per capsula di lattasi 12.000 FCC presa. Se c\'è un limite alla quantità capsule di efficaci a causa di altri fattori scatenanti, lo trovi dopo "fino a".</string>
+
+    <!-- Information screen -->
+
+    <string name="subscription_yearly_text">Risparmia il 20% con un abbonamento annuale</string>
+    <string name="yearly_price_caption">all\'anno</string>
+    <string name="monthly_price_caption">al mese</string>
+    <string name="buy_now">Acquista ora</string>
+
+    <string name="demo_banner_text">Ottieni la versione completa ora!</string>
+
+    <string name="ibs_caption">Sindrome dell\'intestino irritabile</string>
+    <string name="fructose_caption">Intolleranza al fruttosio</string>
+    <string name="lactose_caption">Intolleranza al lattosio</string>
+    <string name="sorbitol_caption">Intolleranza al sorbitolo</string>
+    <string name="galactans_caption">Intolleranza a Fruttani e Galattani</string>
+
+    <string name="yearly_price">42 €</string>
+    <string name="monthly_price">4,70 €</string>
+    <string name="eula_contents">
+    <![CDATA[<p>Cliccando su \"Accetta\" di seguito, accetti la nostra <u>EULA</u>. Il suo accordo è un requisito fondamentale per utilizzare l\'applicazione Laxiba.</p>]]>
+    </string>
+    <string name="eula_accept_btn">Accetta</string>
+    <string name="enter_food_name">Digita il nome del cibo qui</string>
+
+    <string name="app_name">Laxiba</string>
+
+    <string name="val_0">0</string>
+    <string name="val_1">1</string>
+    <string name="val_2">2</string>
+
+
+    <string name="navigation_drawer_open">Apri il cassetto di navigazione</string>
+    <string name="navigation_drawer_close">Chiudi il cassetto di navigazione</string>
+
+    <string name="selection">Altri membri della famiglia</string>
+    <string name="search">Trova alimenti</string>
+    <string name="subscription">Iscrizione</string>
+    <string name="eula">Licenza</string>
+    <string name="menu_item_close">Vicino</string>
+
+    <string name="settings_title">Impostazioni</string>
+    <string name="subscription_title">Sottoscrizione</string>
+    <string name="subscription_monthly_text">Sblocca tutte le funzionalità</string>
+
+    <string name="no_connection_msg">Connettività di rete assete</string>
+    <string name="network_error_msg">Errore del server. Ti preghiamo di riprovare</string>
+
+    <string name="upgrade">Aggiorna</string>
+    <string name="downgrade">Fai il downgrade</string>
+    <string name="btn_continue">Continua</string>
+    <string name="network_retry_btn_text">Riprova</string>
+    <string name="demo_selection_name">Selezione Demo</string>
+    <string name="new_selection">Aggiungere una selezione</string>
+    <string name="selection_name_hint">nome del profilo</string>
+    <string name="selections_title">Combinazioni salvate</string>
+    <string name="settings_title_pattern">Impostazioni (%1$s)</string>
+    <string name="activate_btn_text">Attivare</string>
+    <string name="active">attivo</string>
+    <string name="enter_selection_name_msg">Inserire il nome di selezione</string>
+
+    <string name="food">Cibo</string>
+    <string name="categories">Categorie</string>
+    <string name="subcategories">Sottocategorie</string>
+    <string name="full_version">Versione completa</string>
+    <string name="demo_version">Versione demo</string>
+</resources>

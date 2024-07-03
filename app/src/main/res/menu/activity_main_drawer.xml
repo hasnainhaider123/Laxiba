@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/gr1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_selection"
+            android:title="@string/selection" />
+        <item
+            android:id="@+id/nav_search"
+            android:title="@string/search" />
+        <item
+            android:id="@+id/nav_subscription"
+            android:title="@string/subscription" />
+
+
+    </group>
+
+
+    <group
+        android:id="@+id/gr2"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_information"
+            android:title="@string/info_title" />
+        <item
+            android:id="@+id/nav_eula"
+            android:title="@string/eula" />
+    </group>
+
+</menu>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/app_bar_layout">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/top_pannel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="8dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/diet_plan"
+                        android:textColor="@color/colorPrimary"
+                        android:paddingTop="16dp"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+                <TableLayout
+                    android:id="@+id/table"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/top_pannel"
+                    android:background="@color/white"
+                    android:paddingStart="12dp"
+                    android:paddingTop="18dp"
+                    android:paddingEnd="12dp"
+                    android:stretchColumns="1">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/gray_background"
+                        android:paddingStart="4dp"
+                        android:paddingEnd="4dp" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:paddingStart="4dp"
+                        android:paddingTop="8dp"
+                        android:paddingEnd="4dp"
+                        android:paddingBottom="8dp">
+
+                        <ImageView
+                            android:layout_width="@dimen/img_size"
+                            android:layout_height="@dimen/img_size"
+                            android:paddingEnd="16dp"
+                            android:src="@drawable/ic_ibs" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/ibs_caption"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/selection_text_size" />
+
+                        <TextView
+                            android:id="@+id/selector_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="12dp"
+                            android:background="@null"
+                            android:gravity="center"
+                            android:padding="4dp"
+                            android:textSize="@dimen/selection_text_size" />
+                    </TableRow>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/gray_background"
+                        android:paddingStart="4dp"
+                        android:paddingEnd="4dp" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:paddingStart="4dp"
+                        android:paddingTop="8dp"
+                        android:paddingEnd="4dp"
+                        android:paddingBottom="8dp">
+
+                        <ImageView
+                            android:layout_width="@dimen/img_size"
+                            android:layout_height="@dimen/img_size"
+                            android:paddingEnd="16dp"
+                            android:src="@drawable/ic_lactose" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/lactose_caption"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/selection_text_size" />
+
+
+                        <TextView
+                            android:id="@+id/selector_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="12dp"
+                            android:background="@null"
+                            android:textSize="@dimen/selection_text_size" />
+                    </TableRow>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/gray_background"
+                        android:paddingStart="4dp"
+                        android:paddingEnd="4dp" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:paddingStart="4dp"
+                        android:paddingTop="8dp"
+                        android:paddingEnd="4dp"
+                        android:paddingBottom="8dp">
+
+                        <ImageView
+                            android:layout_width="@dimen/img_size"
+                            android:layout_height="@dimen/img_size"
+                            android:paddingEnd="16dp"
+                            android:src="@drawable/ic_fructose" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/fructose_caption"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/selection_text_size" />
+
+
+                        <TextView
+                            android:id="@+id/selector_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="12dp"
+                            android:background="@null"
+                            android:textSize="@dimen/selection_text_size" />
+                    </TableRow>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/gray_background"
+                        android:paddingStart="4dp"
+                        android:paddingEnd="4dp" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:paddingStart="4dp"
+                        android:paddingTop="8dp"
+                        android:paddingEnd="4dp"
+                        android:paddingBottom="8dp">
+
+                        <ImageView
+                            android:layout_width="@dimen/img_size"
+                            android:layout_height="@dimen/img_size"
+                            android:paddingEnd="16dp"
+                            android:src="@drawable/ic_sorbitol" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/sorbitol_caption"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/selection_text_size" />
+
+                        <TextView
+                            android:id="@+id/selector_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="12dp"
+                            android:background="@null"
+                            android:textSize="@dimen/selection_text_size" />
+                    </TableRow>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/gray_background"
+                        android:paddingStart="4dp"
+                        android:paddingEnd="4dp" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:paddingStart="4dp"
+                        android:paddingTop="8dp"
+                        android:paddingEnd="4dp"
+                        android:paddingBottom="8dp">
+
+                        <ImageView
+                            android:layout_width="@dimen/img_size"
+                            android:layout_height="@dimen/img_size"
+                            android:paddingEnd="16dp"
+                            android:src="@drawable/ic_galictioans" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/galactans_caption"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/selection_text_size" />
+
+                        <TextView
+                            android:id="@+id/selector_5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="12dp"
+                            android:background="@null"
+                            android:textSize="@dimen/selection_text_size" />
+                    </TableRow>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/gray_background"
+                        android:paddingStart="4dp"
+                        android:paddingEnd="4dp" />
+                </TableLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/table"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:paddingStart="16dp"
+                    android:paddingTop="18dp"
+                    android:paddingEnd="16dp"
+                    android:paddingBottom="16dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="@string/selection_legend"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/selection_text_size" />
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+
+
+        <ProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
